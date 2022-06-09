@@ -1,0 +1,32 @@
+
+/*  ein * steht für alle: alle Elemente sollen kein margin, padding und box-sizing haben */
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;/*Arial, Helvetica, sans-serif;*/
+    background-color: #f5f36f;
+    color: black;
+  }
+  
+  /* Style the header */
+  header {
+    background-color: #f5f36f;
+    padding: 30px;
+    text-align: center;
+    font-size: 30px;
+    /*color: #f03c20;*/
+    color: black;
+  }
+ 
+
+.cl_page 
+{
+  width: 1500px;
+  margin: 0 auto;   /* auto entspricht mittig des Schirms*/
+  overflow: hidden; 
+  min-height: 1000px;
+  border: 1px solid blue; /*  für Testphase*/
+}
